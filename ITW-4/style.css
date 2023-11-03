@@ -45,4 +45,29 @@ body {
   margin: 0 20px; 
 }
 
+.button {
+  background-color: #0077B6;
+  color: #FFF;
+  padding: 10px 20px;
+  border: thick double #32a1ce;;
+  border-radius: 5px;
+  text-decoration: inherit;
+  display: inline-block;
+  font-size: 16px;
+}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
 
+section, aside, article {
+  margin: 20px 0;
+}
+img.profile-image {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+}
