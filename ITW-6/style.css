@@ -1,4 +1,4 @@
-/* ---- General ---- */
+
 
 body {
     background-color: rgb(241, 241, 241);
@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/* ---- Back to top ---- */
+
 
 #back-to-top > button{
     background-color: rgb(198, 156, 78);
@@ -29,7 +29,7 @@ body {
     color: rgb(198, 156, 78);
 }
 
-/* ---- Nav --- */
+
 
 #navbar {
     background-color: rgb(23, 23, 23);
@@ -55,7 +55,7 @@ button:hover {
 
 
 
-/* ---- header ----- */
+
 
 #top {
     display: flex;
@@ -74,7 +74,7 @@ button:hover {
     height: 225px;
 }
 
-/* ---- Content ----- */
+
 
 main {
     margin-top: 10rem;
@@ -95,7 +95,7 @@ main {
     padding-right: 3rem;
 }
 
-/* ---- About ----- */
+
 
 #about {
     margin-top: 4rem;
