@@ -1,0 +1,120 @@
+.content {
+   
+    max-width: 100%;
+}
+
+
+.content img {
+   
+    width: 300px; 
+    height: auto; 
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.content img {
+  animation-name: slideIn; 
+  animation-duration: 2s; 
+  animation-timing-function: ease; 
+  animation-delay: 0s; 
+  animation-iteration-count: 1; 
+  animation-direction: normal; 
+  animation-fill-mode: forwards; 
+}
+
+@keyframes colorChange {
+    0% {
+      filter: grayscale(100%) brightness(1) contrast(1);
+    }
+    50% {
+      filter: grayscale(0%) brightness(1.5) contrast(1.2);
+    }
+    100% {
+      filter: grayscale(100%) brightness(1) contrast(1);
+    }
+  }
+  
+  
+
+  .content img {
+    animation-name: colorChange; 
+    animation-duration: 5s; 
+    animation-timing-function: ease; 
+    animation-delay: 0s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+    animation-fill-mode: forwards; 
+  }
+
+  @keyframes moveHorizontally {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); 
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .content img {
+    animation-name: moveHorizontally; 
+    animation-duration: 4s; 
+    animation-timing-function: ease; 
+    animation-delay: 0s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+    animation-fill-mode: forwards; 
+  }
+
+  @keyframes moveHorizontally {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); 
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  .content img {
+    
+    transform: translateX(0);
+    transition: transform 0.4s ease; 
+  
+ 
+    transition: transform 0.4s ease;
+    animation-name: none; 
+  
+  
+    &:hover {
+      transform: translateX(0);
+      animation-name: moveHorizontally;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-fill-mode: forwards;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
