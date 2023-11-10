@@ -1,73 +1,28 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: 'Arial', sans-serif; 
+  color: #333; 
+   background-color: #f8f8f8;
+}
+h1 {
+  color: #0066cc; 
 }
 
-.header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+p {
+  color: #555; 
 }
-
-.header h1 {
-  font-size: 28px;
-}
-
-.menu a {
-  text-decoration: none; 
+header {
+  background-color: #0066cc; 
   color: #fff; 
-  font-weight: bold; 
-  font-size: 16px;
+  padding: 10px; 
 }
 
-.content {
-  background-color: #f0f0f0;
+main {
+  background-color: #fff; 
   padding: 20px; 
 }
 
-.section {
-  background-color: #fff;
-  margin: 20px; 
-  padding: 20px;
-  border: 1px solid #ccc; 
-}
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-.profile-img {
-  border-radius: 50%; 
-}
-
-.resume-paragraphs p {
-  margin: 0 20px; 
-}
-
-.button {
-  background-color: #0077B6;
-  color: #FFF;
-  padding: 10px 20px;
-  border: thick double #32a1ce;;
-  border-radius: 5px;
-  text-decoration: inherit;
-  display: inline-block;
-  font-size: 16px;
-}
-p {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
-section, aside, article {
-  margin: 20px 0;
-}
-img.profile-image {
-  border-radius: 50%;
-  width: 150px; 
-  height: 150px; 
-  object-fit: cover; 
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
 }
