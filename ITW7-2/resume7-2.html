@@ -1,65 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <title>Resume 7-2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resume 7-1</title>
     
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-    <style>
-       
-        .hero {
-            background-image: url('profile_image1.jpg'); 
-            background-color: #333; 
-            background-size: cover;
-            background-repeat: no-repeat; 
-            background-position: center center; 
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 2.5em;
-        }
-
-        .hero p {
-            font-size: 1.5em;
-        }
-    </style>
 
 
   </head>
   <body>
-    <header>
-
-        <div class="hero">
-          
-            <img src="profile_image1.jpg" alt="Your Name" width="200" height="200">
-
-    <h1>Sandile Tembe</h1>
-    <p>An introductory personal statement. </p>
+    <div class="header">
+    <h1 id="tittle">Sandile Tembe</h1>
+    <p id="intro">An introductory personal statement. </p>
+    
     <br>
-  </header>
+  </div>
   <section>
     <aside>
-    <img src="profile_image.jpg" alt="images" width="350" height="500">
+    <img src="profile_image.jpg" alt="images" width="50" height="500" class="center">
 
     
     
     <nav>
+      <div class="menu-item">
         <ul>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        </div>
       </nav>
     </aside>
     <article>
+      <div class="main-content">
 <ul>
   <h3 id="education">Education</h3>
     <a href="https://www.codespace.co.za/" target="_Intro to web at">codespace</a>
@@ -69,7 +46,8 @@
 
     <h3>Qualification 2</h3>
     <P> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
-
+  </div>
+  <div class="section">
     <h3 id="experience">Experience</h3>
     <h3>Job 1</h3>
     <p>
@@ -89,6 +67,7 @@
 <li>A sentence about the responsibilities of the job</li>
 
 </p>  
+</div>
 </ul>
 
 <ul>
@@ -99,52 +78,39 @@
 <li>Skill 3</li>
 <li>Skill 4</li>
 </ul>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out to me with any inquiries or questions. I'll get back to you as soon as possible.</p>
-
-    <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
-        <label for="subject">Subject (Required):</label>
-        <select id="subject" name="subject" required>
-            <option value="">Select a subject</option>
-            <option value="Job Opportunity">Job Opportunity</option>
-            <option value="Feedback">Feedback</option>
-            <option value="General Inquiry">General Inquiry</option>
-            <option value="Other">Other</option>
-        </select>
-
-        <label for="email">Your Email (Required):</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </article>
 </section>
-<footer>
+<div class="footer">
 <h3 id="contact">Contact</h3>
 <a href="https://www.linkedin.com/" target="_blank">linkedin</a>
 </footer>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+ 
+  <form action="https://formsubmit.co/nstembe@gmail.com" method="post">
+    
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject" required>
+          <option value="general">General Inquiry</option>
+          <option value="job">Job Opportunity</option>
+          <option value="meeting">Meeting Request</option>
+        
+      </select>
+
+     
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+     
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+      
+      <button type="submit">Submit</button>
+  </form>
+</section>
+
   </body>
 </html>
