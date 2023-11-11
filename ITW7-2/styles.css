@@ -74,7 +74,7 @@ body {
   .profile-image {
     border-radius: 50%; 
 }
-/* Add styling for the contact form */
+
 #contact form {
     max-width: 600px;
     margin: 20px auto;
@@ -84,13 +84,13 @@ body {
     text-align: center;
 }
 
-/* Style form labels */
+
 #contact form label {
     display: block;
     margin-bottom: 8px;
 }
 
-/* Style form inputs and textarea */
+
 #contact form select,
 #contact form input[type="email"],
 #contact form textarea {
@@ -131,3 +131,41 @@ body {
     content: ' *';
     color: #ff0000;
 }
+
+#hero {
+    background-image: url('background-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    color: black; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hero img {
+    width: 200px; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+
