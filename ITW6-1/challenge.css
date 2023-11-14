@@ -1,7 +1,4 @@
-/* 
-    Write CSS here to ensure that the back to top button is fixed to the 
-    bottom right hand side of the screen 
-*/
+
 #back-to-top {
 
 background-color: #007bff;
@@ -22,7 +19,7 @@ display: none;
 
 
 
-/* Write CSS here to make navbar sticky to the top of the page */
+
 #navbar {
 
     background-color: #333;
@@ -35,11 +32,12 @@ display: none;
 
 }
 
+
 #header {
     position: relative;
 }
 
-/* relatively position header image inside header element using CSS here */
+
 #header-image {
     position: absolute;
     top: 0; 
