@@ -1,4 +1,4 @@
-/* ---- General ---- */
+
 
 body {
     background-color: rgb(241, 241, 241);
@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/* ---- Back to top ---- */
+
 
 #back-to-top > button{
     background-color: rgb(198, 156, 78);
@@ -55,7 +55,6 @@ button:hover {
 
 
 
-/* ---- header ----- */
 
 #top {
     display: flex;
@@ -70,11 +69,17 @@ button:hover {
 }
 #header-image {
     border-radius: 10%;
-    width: 300px;
-    height: 225px;
+    width: 100px;
+    height: auto;
+    position:absolute;
+    top: 110px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    
 }
 
-/* ---- Content ----- */
+
 
 main {
     margin-top: 10rem;
@@ -95,16 +100,8 @@ main {
     padding-right: 3rem;
 }
 
-/* ---- About ----- */
 
-#about {
-    margin-top: 4rem;
-    
-}
 
-#about-content {
-    padding: 0 15vw;
-}
 
 #footer {
     margin-top: 4rem;
