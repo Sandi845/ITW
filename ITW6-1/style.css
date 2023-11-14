@@ -71,11 +71,8 @@ button:hover {
     width: 100px;
     height: auto;
     position:absolute;
-    top: 110px;
-    z-index: -1;
-    top: 0;
-    left: 0;
-
+    
+    
 }
 
 

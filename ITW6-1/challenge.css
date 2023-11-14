@@ -39,8 +39,8 @@ display: none;
 
 
 #header-image {
-    position: absolute;
-    top: 0; 
+    position: relative;
+    top: 110px; 
     left: 0; 
     width: 100%; 
     height: auto; 
