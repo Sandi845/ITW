@@ -29,7 +29,6 @@ body {
     color: rgb(198, 156, 78);
 }
 
-/* ---- Nav --- */
 
 #navbar {
     background-color: rgb(23, 23, 23);
@@ -76,7 +75,7 @@ button:hover {
     z-index: -1;
     top: 0;
     left: 0;
-    
+
 }
 
 
