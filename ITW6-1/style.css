@@ -1,12 +1,12 @@
+/* ---- General ---- */
 
 body {
     background-color: rgb(241, 241, 241);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    padding: 0;
-   font-family: Arial, sans-serif;
 }
 
+/* ---- Back to top ---- */
 
 #back-to-top > button{
     background-color: rgb(198, 156, 78);
@@ -14,15 +14,6 @@ body {
     border: solid 1px rgb(198, 156, 78);
     width: 50px;
     height: 50px;
-    position: fixed;
-    bottom: 80px;
-     right: 80px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    display: none;
 }
 #back-to-top:hover > button {
     border: solid 1px rgb(198, 156, 78);
@@ -38,19 +29,13 @@ body {
     color: rgb(198, 156, 78);
 }
 
-
+/* ---- Nav --- */
 
 #navbar {
     background-color: rgb(23, 23, 23);
     color: white;
     text-align: center;
     z-index: 1;
-    color: #fff;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
 .nav-link {
@@ -69,18 +54,8 @@ button:hover {
 }
 
 
-.header img {
 
-    width: 100%;
-    position: relative;
-    left: -20px; 
-}
-
-.header {
-    position: relative;
-    overflow: hidden;
-}
-
+/* ---- header ----- */
 
 #top {
     display: flex;
@@ -103,7 +78,6 @@ button:hover {
 
 main {
     margin-top: 10rem;
-    padding: 20px;
 }
 
 .service {
