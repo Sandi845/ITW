@@ -30,6 +30,7 @@ body {
 }
 
 
+
 #navbar {
     background-color: rgb(23, 23, 23);
     color: white;
@@ -55,6 +56,7 @@ button:hover {
 
 
 
+
 #top {
     display: flex;
     background-color: rgb(47, 50, 60);
@@ -68,11 +70,8 @@ button:hover {
 }
 #header-image {
     border-radius: 10%;
-    width: 100px;
-    height: auto;
-    position:absolute;
-    
-    
+    width: 300px;
+    height: 225px;
 }
 
 
@@ -98,6 +97,14 @@ main {
 
 
 
+#about {
+    margin-top: 4rem;
+    
+}
+
+#about-content {
+    padding: 0 15vw;
+}
 
 #footer {
     margin-top: 4rem;
