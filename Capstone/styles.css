@@ -212,3 +212,10 @@ li {
   flex: 1;
   margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+}
+}
+
