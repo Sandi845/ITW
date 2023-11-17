@@ -8,6 +8,7 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
+    margin: auto;
   }
   
   .full-name {
@@ -94,7 +95,7 @@ li {
 }
 
 footer {
-  background-color: #333;
+  background-color:#333;
   color: #fff;
   text-align: center;
   padding: 1em 0;
@@ -141,14 +142,14 @@ input, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 button {
   background-color: #4caf50;
-  color: #fff;
+  color: black;
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
@@ -164,6 +165,9 @@ nav {
   color: #fff;
   text-align: center;
   padding: 10px;
+  display: grid;
+ 
+  
 }
 
 nav a {
@@ -217,5 +221,10 @@ li {
   body {
     font-size: 14px;
 }
+
 }
+
+
+
+
 
